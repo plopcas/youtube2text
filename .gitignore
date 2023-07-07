@@ -1,0 +1,35 @@
+# Ignore Python build artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.so
+
+# Ignore Python distribution artifacts
+dist/
+build/
+*.egg-info/
+
+# Ignore Jupyter Notebook files
+*.ipynb_checkpoints/
+
+# Ignore virtual environments
+venv/
+*.venv
+env/
+.venv/
+ENV/
+
+# Ignore IDE-specific files
+.vscode/
+*.pyproj
+*.sln
+*.suo
+*.user
+
+# Ignore GCP service account key file
+*.json
+
+# Outputs
+/outputs
